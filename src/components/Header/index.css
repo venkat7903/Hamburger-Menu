@@ -1,0 +1,71 @@
+/* Write your CSS here */
+.nav-bar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+.logo-btn-container {
+  width: 90%;
+  max-width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.web-logo {
+  width: 70px;
+}
+
+.hamburger-icon {
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.popup-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.close-btn {
+  align-self: flex-end;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+  margin: 5px;
+}
+
+.nav-name {
+  font-size: 30px;
+  color: #000;
+  font-weight: 600;
+  margin: 0;
+  margin-left: 10px;
+}
+
+.nav-links-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
